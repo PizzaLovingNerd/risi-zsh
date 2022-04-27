@@ -25,7 +25,7 @@ risiOS's implementation of ZSH
 mkdir -p %{buildroot}%{_sysconfdir}/skel
 mkdir -p %{buildroot}%{_datadir}
 
-cp -a usr/share %{buildroot}%{_datadir}/risi-zsh-plugins
+cp -a plugins %{buildroot}%{_datadir}/risi-zsh-plugins
 cp .zshrc %{buildroot}%{_sysconfdir}/skel
 
 %files
