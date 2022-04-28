@@ -26,7 +26,6 @@ mkdir -p %{buildroot}%{_sysconfdir}/skel
 mkdir -p %{buildroot}%{_datadir}
 
 cp -a plugins %{buildroot}%{_datadir}/risi-zsh-plugins
-cp .zshrc %{buildroot}%{_sysconfdir}/skel
 
 %files
 # %license add-license-file-here
