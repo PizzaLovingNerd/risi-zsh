@@ -1,4 +1,4 @@
-Name:           risi-zsh
+Name:           risi-zsh-plugins
 Version:        1.0
 Release:        1%{?dist}
 Summary:        risiOS's implementation of ZSH 
@@ -32,7 +32,6 @@ cp .zshrc %{buildroot}%{_sysconfdir}/skel
 # %license add-license-file-here
 # %doc add-docs-here
 %{_datadir}/risi-zsh-plugins
-%{_sysconfdir}/skel/.zshrc
 
 %changelog
 * Wed Apr 27 2022 PizzaLovingNerd
