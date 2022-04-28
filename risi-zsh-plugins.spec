@@ -18,7 +18,7 @@ Requires:	micro
 risiOS's implementation of ZSH 
 
 %prep
-%autosetup -n %{name}-master
+%autosetup -n risi-zsh-master
 
 %build
 %install
