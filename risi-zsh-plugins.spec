@@ -1,6 +1,6 @@
 Name:           risi-zsh-plugins
 Version:        1.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        risiOS's implementation of ZSH 
 
 License:        GPL v3
