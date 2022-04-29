@@ -12,7 +12,7 @@ PROMPT='%B%F{blue}%n%f // %F{cyan}%~%f >>%b ' # custom prompt used by risiOS
 # plugins
 if [ -d /usr/share/risi-zsh-plugins ]; then
   source /usr/share/risi-zsh-plugins/git-prompt/git-prompt.plugin.zsh
-  source /usr/share/risi-zsh-plugins/coprdir.plugin.zsh
+  source /usr/share/risi-zsh-plugins/copydir.plugin.zsh
   source /usr/share/risi-zsh-plugins/copypath.plugin.zsh
 fi
 
