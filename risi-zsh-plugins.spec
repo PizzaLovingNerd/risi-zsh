@@ -31,6 +31,7 @@ cp -a plugins %{buildroot}%{_datadir}/risi-zsh-plugins
 # %license add-license-file-here
 # %doc add-docs-here
 %{_datadir}/risi-zsh-plugins
+%{_datadir}/risi-zsh-plugins/*
 
 %changelog
 * Wed Apr 27 2022 PizzaLovingNerd
